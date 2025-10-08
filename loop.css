@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: hsl(0, 0%, 89%);
+    color: hsl(0, 0%, 100%);
+}
+#hero{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#head{
+    position: relative;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#head img{
+    width: 100%;
+}
+header{
+    padding: 25px 25px;
+    display: flex;
+    gap: 45%;
+    position: absolute;
+}
+#head p{
+    display: flex;
+    text-transform: uppercase;
+    border: solid;
+    font-size: xx-large;
+    height: 12%; width: 83%; 
+    padding: 25px;
+    letter-spacing: 3px;
+}
+#box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 300px;
+    left: 36px;
+}
+.logo{
+    width: 90px;
+
+}
+
+.leader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15%;
+}
+.leader img{
+    width: 80%;
+}
+#title{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.1;
+    padding-bottom: 20px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    padding-top: 50px;
+}
+.leader p{
+    color: hsl(0, 0%, 0%);
+    text-align: center;
+    line-height: 1.5;
+    font-size: 15px;
+}
+.creations{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 20%;
+}
+.creations #title{
+    color: hsl(0, 0%, 0%);
+    padding-bottom: 70px;
+}
+.creations img{
+    width: 90%;
+}
+.creations #games{
+    text-transform: uppercase;
+    font-size: 25px;
+    color: hsl(0, 0%, 100%);
+    margin-left: -100px;
+    margin-top: -110px;
+    padding-bottom: 100px;
+}
+#see{
+    color: hsl(0, 0%, 0%);
+    text-transform: uppercase;
+    border: solid;
+    letter-spacing: 3px;
+    font-size: 15px;
+    padding: 9px 17px;
+}
+footer{
+    background-color: hsl(0, 0%, 0%);
+    width: 100%;
+    padding-top: 50px;
+    margin-top: 100px;
+}
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-transform: capitalize;
+}
+.about-us a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    line-height: 2.5;
+    text-align: center;
+}
+#info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+    padding-bottom: 60px;
+}
+.icons{
+   display: flex;
+   flex-direction: row;
+   gap: 20px;
+}
