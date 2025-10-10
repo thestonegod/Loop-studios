@@ -147,3 +147,44 @@ footer{
    flex-direction: row;
    gap: 20px;
 }
+@media(min-width:768px){
+    #footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 150px;
+    }
+    
+    .about-us{
+        display: flex;
+        flex-direction: row;
+        gap:15px;
+    }
+
+    #info{
+        padding-top: 23px;
+    }
+
+    .icons{
+        padding-left: 115px;
+    }
+    /*Top*/
+    #hero .mobile-hero{
+        display: none;
+    }
+    
+    #box{
+        top: 140px;
+        left: 170px;
+    }
+
+    #hero #ham{
+        display: none;
+    }
+
+    header #nav{
+        text-decoration: none;
+    }
+
+}
