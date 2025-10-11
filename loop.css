@@ -14,8 +14,27 @@ body{
     align-items: center;
     justify-content: center;
 }
+.desktop-hero{
+    display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #head{
     position: relative;
+    display: flex;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    padding: 25px 50px;
+}
+header nav{
+   display: flex;
+   gap: 15px; 
+   padding-left: 230px;
+   text-decoration: none;
+   color: hsl(0, 0%, 100%);
 }
 
 section{
@@ -62,7 +81,9 @@ header{
     align-items: center;
     flex-direction: column;
     margin-top: 15%;
+    position: relative;
 }
+
 .leader img{
     width: 80%;
 }
@@ -88,6 +109,9 @@ header{
     justify-content: center;
     flex-direction: column;
     padding-top: 20%;
+}
+.desktop-grid{
+    display: none;
 }
 .creations #title{
     color: hsl(0, 0%, 0%);
@@ -175,16 +199,74 @@ footer{
     }
     
     #box{
-        top: 140px;
-        left: 170px;
+        top: 160px;
+        left: 280px;
     }
 
-    #hero #ham{
+    #head #ham{
         display: none;
     }
 
-    header #nav{
+    .desktop-header{
+        display: flex;
+        flex-direction: row;
+        padding: 30px;
+        gap: 100x;
         text-decoration: none;
     }
 
+    #nav{
+        display: flex;
+        gap: 20px;
+        color: hsl(0, 0%, 100%);
+    }
+
+    .leader{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .leader img{
+        width: 500px;
+    }
+    .overflow{
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 89%);
+    position: absolute;
+    width: 420px; 
+    left: 380px;
+    top: 95px;
+}
+
+/*Games*/
+.mobile-view{
+    display: none;
+}
+.desktop-grid img{
+    width: 200px;
+}
+.desktop-grid #games{
+    font-size: 20px;
+    margin-left: -120px;
+    margin-top: 290px;
+    
+}
+.desktop-grid #gamees{
+    font-size: 20px;
+    margin-left: -120px;
+    margin-top: 290px;
+    text-transform: uppercase;
+    
+}
+.desktop-grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+    padding: 30px;
+}
 }
