@@ -13,28 +13,28 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    gap: 300px;
 }
 .desktop-hero{
     display: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 #head{
     position: relative;
     display: flex;
+    flex-direction: row;
 }
+#mobile-head{
+    display: flex;
+    flex-direction: row;
+}
+
 header{
     display: flex;
     flex-direction: row;
-    padding: 25px 50px;
+    padding: 25px;
 }
-header nav{
-   display: flex;
-   gap: 15px; 
-   padding-left: 230px;
-   text-decoration: none;
-   color: hsl(0, 0%, 100%);
+ nav a{
+    display: none;
 }
 
 section{
@@ -113,6 +113,9 @@ header{
 .desktop-grid{
     display: none;
 }
+.desktop-gridd{
+    display: none;
+}
 .creations #title{
     color: hsl(0, 0%, 0%);
     padding-bottom: 70px;
@@ -124,7 +127,7 @@ header{
     text-transform: uppercase;
     font-size: 25px;
     color: hsl(0, 0%, 100%);
-    margin-left: -100px;
+    padding-left: -95px;
     margin-top: -110px;
     padding-bottom: 100px;
 }
@@ -194,8 +197,11 @@ footer{
         padding-left: 115px;
     }
     /*Top*/
-    #hero .mobile-hero{
+    .mobile-hero{
         display: none;
+    }
+    .desktop-hero{
+        display: flex;
     }
     
     #box{
@@ -215,11 +221,6 @@ footer{
         text-decoration: none;
     }
 
-    #nav{
-        display: flex;
-        gap: 20px;
-        color: hsl(0, 0%, 100%);
-    }
 
     .leader{
         display: flex;
@@ -242,31 +243,59 @@ footer{
 }
 
 /*Games*/
-.mobile-view{
+.creations .mobile-view{
     display: none;
 }
-.desktop-grid img{
-    width: 200px;
+.desktop-grid #desktop-games{
+    width: 170px;
 }
-.desktop-grid #games{
-    font-size: 20px;
-    margin-left: -120px;
-    margin-top: 290px;
-    
+.desktop-gridd #desktop-games{
+    width: 170px;
 }
-.desktop-grid #gamees{
+.desktop-grid p{
     font-size: 20px;
-    margin-left: -120px;
+    padding-left: -150px;
     margin-top: 290px;
     text-transform: uppercase;
-    
 }
+.desktop-gridd p{
+    font-size: 20px;
+    padding-right: -20px;
+    margin-top: 300px; 
+    text-transform: uppercase;
+}
+.desktop-gridd{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
 .desktop-grid{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 1px;
-    padding: 30px;
+    gap: 7px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    gap: 500px;
+}
+nav a{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    gap: 15px;
+}
+#mobile-head img{
+    display: none;
+}
+header .ham{
+    display: none;
 }
 }
