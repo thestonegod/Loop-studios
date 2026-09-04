@@ -1,0 +1,329 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: hsl(0, 0%, 89%);
+    color: hsl(0, 0%, 100%);
+}
+#hero{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+}
+.desktop-hero{
+    display: none;
+}
+#head{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.mobile-view{
+    margin-left: 30px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+}
+ nav a{
+    display: none;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#head img{
+    width: 100%;
+}
+.ham{
+    cursor: pointer;
+}
+header{
+    padding: 25px 25px;
+    display: flex;
+    gap: 45%;
+    position: absolute;
+}
+#head p{
+    display: flex;
+    text-transform: uppercase;
+    border: solid;
+    font-size: xx-large;
+    height: 12%; width: 83%; 
+    padding: 25px;
+    letter-spacing: 3px;
+}
+#box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 300px;
+    left: 36px;
+}
+.logo{
+    width: 90px;
+
+}
+
+.leader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15%;
+    position: relative;
+}
+
+.leader img{
+    width: 80%;
+}
+#title{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.1;
+    padding-bottom: 20px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    padding-top: 50px;
+}
+.leader p{
+    color: hsl(0, 0%, 0%);
+    text-align: center;
+    line-height: 1.5;
+    font-size: 15px;
+}
+.creations{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 20%;
+}
+.desktop-grid{
+    display: none;
+}
+.desktop-gridd{
+    display: none;
+}
+.creations #title{
+    color: hsl(0, 0%, 0%);
+    padding-bottom: 70px;
+}
+.creations img{
+    width: 90%;
+}
+.creations #games{
+    text-transform: uppercase;
+    font-size: 25px;
+    color: hsl(0, 0%, 100%);
+    padding-left: -95px;
+    margin-top: -100px;
+    padding-bottom: 100px;
+}
+.see p{
+    color: hsl(0, 0%, 0%);
+    text-transform: uppercase;
+    border: solid;
+    letter-spacing: 3px;
+    font-size: 15px;
+    padding: 9px 20px;
+}
+.see{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    background-color: hsl(0, 0%, 0%);
+    width: 100%;
+    padding-top: 50px;
+    margin-top: 100px;
+}
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-transform: capitalize;
+}
+.about-us a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    line-height: 2.5;
+    text-align: center;
+}
+#info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+    padding-bottom: 60px;
+}
+.icons{
+   display: flex;
+   flex-direction: row;
+   gap: 20px;
+}
+@media(min-width:768px){
+    #footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 150px;
+    }
+    
+    .about-us{
+        display: flex;
+        flex-direction: row;
+        gap:15px;
+    }
+
+    #info{
+        padding-top: 23px;
+    }
+
+    .icons{
+        padding-left: 115px;
+    }
+    /*Top*/
+    .mobile-hero{
+        display: none;
+    }
+    .desktop-hero{
+        display: flex;
+    }
+    
+    #box{
+        top: 160px;
+        left: 280px;
+    }
+
+    #head #ham{
+        display: none;
+    }
+
+    .desktop-header{
+        display: flex;
+        flex-direction: row;
+        padding: 30px;
+        gap: 100x;
+        text-decoration: none;
+    }
+
+
+    .leader{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .leader img{
+        width: 500px;
+    }
+    .overflow{
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 89%);
+    position: absolute;
+    width: 420px; 
+    left: 380px;
+    top: 95px;
+}
+
+/*Games*/
+.creations .mobile-view{
+    display: none;
+}
+.desktop-grid #desktop-games{
+    width: 170px;
+}
+
+.desktop-grid{
+    position: relative;
+}
+.desktop-gridd{
+    position: relative;
+}
+.desktop-gridd #desktop-games{
+    width: 170px;
+}
+.desktop-grid p{
+    font-size: 20px;
+    margin-left: -155px ;
+    margin-top: 230px;
+    text-transform: uppercase;
+}
+.desktop-gridd p{
+    font-size: 20px;
+    margin-left: -175px ;
+    margin-top: 230px;
+    text-transform: uppercase;
+}
+
+.desktop-gridd{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 63px;
+    padding-right: 22px;   
+}
+.logo{
+    width: 20px;
+}
+
+.desktop-grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-top: 40px;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+#hero{
+    display: flex;
+    flex-direction: row;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    gap: 540px;
+}
+nav{
+    display: flex;
+    gap: 15px;
+    cursor: pointer;
+}
+.native a{
+    display: flex;
+    display: inline-block;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+#mobile-head img{
+    display: none;
+}
+header .ham{
+    display: none;
+}
+}
