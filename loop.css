@@ -22,7 +22,6 @@ body{
 #head{
     display: flex;
     flex-direction: row;
-    position: relative;
 }
 
 .mobile-view{
