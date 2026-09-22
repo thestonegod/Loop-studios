@@ -34,11 +34,11 @@ body{
 header{
     display: flex;
     flex-direction: row;
-    padding: 25px 25px;
     justify-content: space-between;
     align-items: center;
+    padding: 25px;
     position: absolute;
-    cursor: pointer;
+    width: 100%;
 }
 
 nav a{
@@ -223,16 +223,6 @@ footer{
         left: 280px;
     }
 
-    
-
-    .desktop-header{
-        display: flex;
-        flex-direction: row;
-        padding: 30px;
-        text-decoration: none;
-    }
-
-
     .leader{
         display: flex;
         flex-direction: row;
@@ -311,8 +301,11 @@ footer{
 header{
     display: flex;
     flex-direction: row;
-    gap: 540px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
+
 nav{
     display: flex;
     gap: 15px;
