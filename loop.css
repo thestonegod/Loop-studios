@@ -22,6 +22,7 @@ body{
 #head{
     display: flex;
     flex-direction: row;
+    position: relative;
 }
 
 .mobile-view{
@@ -33,14 +34,14 @@ body{
 
 header{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 25px;
     position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
+    padding: 25px;
 }
-
 nav a{
     display: none;
 }
@@ -58,7 +59,7 @@ nav a{
 }
 
 .logo{
-    width: 90px;
+    width: 100px;
 }
 
 /*Hero text with a box around it*/
@@ -282,7 +283,7 @@ footer{
     padding-right: 22px;   
 }
 .logo{
-    width: 20px;
+    width: 90px;
 }
 
 .desktop-grid{
