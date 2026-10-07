@@ -8,6 +8,7 @@ body{
     font-family: 'Josefin Sans', sans-serif;
     background-color: hsl(0, 0%, 89%);
     color: hsl(0, 0%, 100%);
+    overflow-x: hidden;
 }
 #hero{
     display: flex;
@@ -22,6 +23,14 @@ body{
 #head{
     display: flex;
     flex-direction: row;
+    position: relative;
+    width: 100%;
+}
+
+.mobile-hero, .desktop-hero{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
 }
 
 .mobile-view{
@@ -216,11 +225,12 @@ footer{
     }
     .desktop-hero{
         display: flex;
+        height: 650px;
     }
     
     #box{
-        top: 160px;
-        left: 280px;
+        top: 200px;
+        left: 8%;
     }
 
     .leader{
@@ -237,10 +247,10 @@ footer{
     justify-content: center;
     align-items: center;
     background-color: hsl(0, 0%, 89%);
-    position: absolute;
+    position: relative;
     width: 420px; 
-    left: 380px;
-    top: 95px;
+    margin-left: -80px;
+    padding: 20px;
 }
 
 /*Games*/
@@ -304,6 +314,7 @@ header{
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    padding: 40px 8%;
 }
 
 nav{
